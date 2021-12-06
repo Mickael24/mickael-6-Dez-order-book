@@ -1,0 +1,21 @@
+.table {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-auto-rows: 20px;
+    grid-row-gap: 10px;
+    color: white;
+    padding: 5px;
+    border: gray 1px solid;
+}
+
+.nameColumn {
+    font-size: 20px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: end;
+}
